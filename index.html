@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;700&display=swap');
+        html
+        {
+            font-family: 'Red Hat Display', sans-serif;
+        }
+
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+
+        body {
+            background: url('assets/images/pattern-background-desktop.svg');
+            background-repeat: no-repeat;
+        }
+
+        .card {
+            width: 400px;
+            margin: 20px auto;
+            border-radius: 15px;
+            padding-bottom: 20px;
+        }
+
+        .card-hero
+        {
+            height: 250px;
+            background: url('assets/images/illustration-hero.svg');
+            background-repeat: no-repeat;
+        }
+
+        .card .content
+        {
+            padding: 10px 50px 10px 50px;
+        }
+
+        .card .content .main-title
+        {
+            font-weight: 700;
+        }
+
+        .card .content .description
+        {
+            color: rgb(151, 150, 150);
+            font-size: 15px;
+        }
+
+        .content .cost-container
+        {
+            background-color: #f8f9fe;
+            padding-top: 12px;
+            border-radius: 10px;
+        }
+
+        .content .cost-container h5
+        {
+            font-weight: 700;
+            font-size: 17px;
+        }
+
+        .content .cost-container p
+        {
+            font-size: 15px;
+            color: rgb(151, 150, 150);
+            margin-top: -5px;
+        }
+
+        .btn-block
+        {
+            background-color: #766cf1;
+            color: white;
+            font-weight: 700;
+            margin: 20px auto;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 10px 8px#776cf193;
+        }
+
+        .btn-block:hover
+        {
+            color: white;
+        }
+
+        .link
+        {
+            margin: 10px auto;
+        }
+
+        .link a
+        {
+            color: #766cf1;
+        }
+
+        .cancel-link,.cancel-link:hover
+        {
+            color: black;
+            margin-top: 10px;
+        }
+
+        @media screen and (max-width: 768px) 
+        {
+
+            html
+            {
+                background: url('assets/images/pattern-background-mobile.svg');
+            }
+
+            .card
+            {
+                width: 380px;
+            }    
+
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="shadow card">
+            <div class="card-hero">
+                
+            </div>
+            <div class="content">
+                <h3 class="main-title text-center">
+                    Order Summary
+                </h3>
+                <p class="description text-center">
+                    You can now listen to millions of songs, audiobooks, and podcasts on any device
+                    anywhere you like!
+                </p>
+
+                <div class="row cost-container">
+                    <div class="col-3">
+                        <img src="assets/images/icon-music.svg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-5">
+                        <h5>Annual Plan</h5>
+                        <p>$59.99/year</p>
+                    </div>
+                    <div class="col-4 link">
+                        <a href="#">Change</a>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-block">Proceed to Payment</a>
+
+                <div class="text-center">
+                    <a href="#" class="cancel-link font-weight-bold">
+                        Cancel Order
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.frontendmentor.io/profile/Gerron-Oasis">Gerron</a>.
+      </div>
+
+
+    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
