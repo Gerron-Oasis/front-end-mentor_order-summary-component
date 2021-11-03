@@ -30,11 +30,10 @@ Users should be able to:
 
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://front-end-mentor-order-summary-component-sigma.vercel.app/)
 
 ## My process
+- I designed with a top to bottom approach, writing the markup and styling accordingly as i move from row to row.
 
 ### Built with
 
@@ -45,7 +44,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Bootstrap](https://www.getbootstrap.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Bootstrap](https://www.getbootstrap.com) - Used bootstrap grid system to create the page & card components.
 
 ## Author
 - Frontend Mentor - [@Gerron-Oasis](https://www.frontendmentor.io/profile/Gerron-Oasis)
